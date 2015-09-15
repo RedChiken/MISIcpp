@@ -1,12 +1,13 @@
 #include <iostream>
 #include <math.h>
 
-class attribute{
+class Attribute{
 private:
 	bool gale, penetrate, provoke, slow, armorbreak, reflex, suitable;
 public:
-	attribute();
-	attribute(const attribute &att);
+	Attribute();
+	Attribute(const Attribute &att);
+	virtual ~Attribute();
 	/****7가지 속성에 대한 부여 여부 적용 함수****/
 	void enableGale();
 	void enablePenetrate();
