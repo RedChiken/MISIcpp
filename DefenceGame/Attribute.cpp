@@ -38,3 +38,26 @@ void Attribute::enableReflex(){
 void Attribute::enableSuitable(){
 	suitable = true;
 }
+void Attribute::affect(){
+	if (gale){
+
+	}
+	if (penetrate){
+
+	}
+	if (provoke){
+
+	}
+	if (slow){
+
+	}
+	if (armorbreak){
+
+	}
+	if (reflex){
+
+	}
+	if (suitable){
+
+	}
+}
